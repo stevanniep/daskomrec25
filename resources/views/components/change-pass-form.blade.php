@@ -24,6 +24,10 @@
         placeholder="Enter your new password"
       />
     </div>
+    <button onclick="showChangePass()" class="mt-10 text-primary relative transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 list-none">
+        <img src="assets/Button Pink.png" alt="Change" class="w-[180px]">
+        <p class="absolute inset-0 flex items-center justify-center text-lg lg:text-xl font-bold">Change</p>
+    </button>
     <x-change-pass-popup></x-change-pass-popup>
 </div>
   

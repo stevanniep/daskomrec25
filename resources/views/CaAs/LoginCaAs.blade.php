@@ -43,7 +43,7 @@
     <!-- Footer Text -->
     <div class="mt-10 text-center px-4">
         <p class="text-sm sm:text-base md:text-lg text-white font-serif text-shadow-sm">
-        Discover your light within
+        Discover the light within
         </p>
     </div>
 </body>

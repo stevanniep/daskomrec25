@@ -26,6 +26,12 @@ export default {
                 'StoneModel' : "url('../../public/assets/Stone Model.png')",
                 'BlackLayer' : "url('../../public/assets/Black Layer.png')",
                 'Profile': "url('../../public/assets/Background 2.png')",
+                'Shift' : "url('../../public/assets/Background 5.png')",
+                'Gems': "url('../../public/assets/Background 6.png')",
+            },
+            backgroundColor: {
+                'Table' : "#D9D9D9",
+                'AddButton' : "#1A2254",
             },
             fontFamily: {
                 'im-fell-english': ['"IM Fell English"', 'serif'],
@@ -36,7 +42,8 @@ export default {
                 'primary': '#1A2254',
                 'scrollbar-thumb': '#3b82f6', // Tailwind blue-500
                 'scrollbar-track': '#e5e7eb', // Tailwind gray-200
-                'profile': '#270750'
+                'profile': '#270750',
+                'shift': '#1A2254',
             },
             screens: {
                 'xs': '391px',

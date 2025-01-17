@@ -22,14 +22,14 @@
 
     <div class="absolute flex items-center justify-center bg-BlackLayer w-full h-full z-20">
         <div class="absolute inset-0 text-white text-center mt-24">
-            <h2 class="font-crimson-text text-xl pb-2">Discover your light within</h2>
+            <h2 class="font-crimson-text text-xl pb-2">Discover the light within</h2>
             <h1 class="font-im-fell-english text-5xl">Profile</h1>
         </div>
         <div class="relative group mt-14">
             <div class="transition-transform duration-300 group-hover:scale-105">
                 <img src="assets/Profile Card.png" alt="Profile Card" class="w-[450px] relative z-10">
                 <div class="absolute inset-0 bg-white blur-xl opacity-0 transition-opacity duration-300 group-hover:opacity-10"></div>
-                <div class="absolute inset-0 flex items-center text-justify z-20 mx-[89px] xs:mx-[100px] sm:mx-[105px] md:mx-[105px] lg:mx-[105px] mt-[173px] sm:mt-[205px] lg:mt-[203px] md:mt-[203px] xs:mt-[196px]">
+                <div class="absolute inset-0 flex items-center z-20 mx-[89px] xs:mx-[100px] sm:mx-[105px] md:mx-[105px] lg:mx-[105px] mt-[173px] sm:mt-[205px] lg:mt-[203px] md:mt-[203px] xs:mt-[196px]">
                     <div class="text-[9px] sm:text-[10px] md:text-[11px] lg:text-[11px] text-profile font-rye">
                         <p>NAMA: STEVANNIE PRATAMA</p>
                         <p>NIM: 101012340343</p>
@@ -41,8 +41,8 @@
         </div>
     </div>
 
-
     <x-sidebar></x-sidebar>
+    <x-home-button></x-home-button>
     
 
 </body>

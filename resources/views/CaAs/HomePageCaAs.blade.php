@@ -59,7 +59,7 @@
 
      <div class="absolute inset-0 flex flex-col items-center justify-center z-10 text-center px-4">
           <h1 class="text-white font-normal text-3xl md:text-5xl sm:text-3xl">Welcome To The Crystal Cavern</h1>
-          <p class="text-white py-2 text-lg font-bold leading-[32px] font-crimson-text md:text-xl md:leading-[24px] sm:text-sm sm:leading-[20px]">discover your light within</p>
+          <p class="text-white py-2 text-lg font-bold leading-[32px] font-crimson-text md:text-xl md:leading-[24px] sm:text-sm sm:leading-[20px]">discover the light within</p>
       </div>
 
     <x-sidebar></x-sidebar>

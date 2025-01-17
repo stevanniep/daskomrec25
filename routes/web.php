@@ -31,6 +31,18 @@ Route::get('/Announcement', function () {
 Route::get('/Assistants', function () {
     return view('CaAs.AssistantsPage');
 });
+Route::get('/ChooseShift', function () {
+    return view('CaAs.ChooseShift');
+});
+Route::get('/Shift', function () {
+    return view('CaAs.FixShift');
+});
+Route::get('/ChooseGem', function () {
+    return view('CaAs.ChooseGem');
+});
+Route::get('/Gem', function () {
+    return view('CaAs.FixGem');
+});
 Route::get('/LoginAdmin', function () {
     return view('Admin.LoginAdmin');
 });

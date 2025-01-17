@@ -40,16 +40,19 @@
             </div>
             <div class="absolute bottom-28 mr-16">
                 <button class="relative text-primary transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 list-none">
-                    <img src="assets/Button Pink.png" alt="No" class="w-[150px]">
-                    <p class="absolute inset-0 flex items-center justify-center text-lg font-bold">Shift</p>
+                    <a href="/ChooseShift">
+                        <img src="assets/Button Pink.png" alt="Shift" class="w-[150px]">
+                        <p class="absolute inset-0 flex items-center justify-center text-lg font-bold">Shift</p>
+                    </a>
                 </button>
             </div>
             <div class="absolute bottom-[70px] ml-56">
-                <img src="assets/Sign DLOR.png" alt="" class="w-[120px]">
+                <img src="assets/Sign DLOR.png" alt="Sign" class="w-[120px]">
             </div>
         </div>
     </div>
     <x-sidebar></x-sidebar>
+    <x-home-button></x-home-button>
     
 </body>
 </html>
